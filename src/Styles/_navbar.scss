@@ -1,0 +1,58 @@
+.NavBar{
+
+    height: 100vh;
+
+    .nav{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+        .profile{
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            border-bottom: 1px solid #2e344e;
+            img{
+                width: 70%;
+                border-radius: 100%;
+                border: 4px solid #2e344e;
+                margin-bottom: 1rem;
+
+            }
+
+        }
+
+        .nav-items{
+            .nav-item{
+                list-style-type: none;
+
+                a{
+                    text-decoration: none;
+                    font-size: inherit;
+                    color: inherit;
+                    text-align: center;
+                }
+            }
+            
+        }
+
+        .footer{
+            width: 100%;
+            border-top: 1px solid #2e344e;
+            
+            p{
+                text-align: center;
+                padding: 1rem 0;
+            }
+
+        }
+
+
+    }
+
+    
+}
