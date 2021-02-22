@@ -1,7 +1,7 @@
 @import './Styles/layout';
 @import './Styles/navbar';
 @import './Styles/typography';
-
+@import './Styles/title';
 
 
 *{
@@ -15,3 +15,8 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size:1.2rem;
 } 
+
+span{
+    color: #037FFF;
+  
+}

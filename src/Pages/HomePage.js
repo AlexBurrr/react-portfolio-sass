@@ -19,7 +19,7 @@ const HomePage = () => {
             </span>
                 </h1>
                 <p className='h-sub-text'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt provident dolor ullam excepturi in, laudantium commodi nobis repudiandae aperiam quasi!
+                    Front end web developer please hire me
                 </p>
                 <div className="icons">
                     <Link className='icon-Container'>
