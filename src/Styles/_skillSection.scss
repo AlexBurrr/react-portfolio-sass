@@ -1,0 +1,52 @@
+.skillsContainer{
+    
+    .tech-icon-container{
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        grid-gap: 2rem;
+        font-size: 2.5rem;
+        color: #a4acc4; 
+        font-size: 4rem;
+        text-align: center;
+        
+.icon{
+    transition: all .5s ease-in-out;
+    color: #a4acc4; 
+}
+.css3{
+    &:hover{
+        color: #2965f1;
+    }
+}
+
+.html5{
+    &:hover{
+        color: #f06529;
+}
+        
+    }
+
+.js{
+    &:hover{
+        color: #f0db4f
+    }
+}
+
+.react{
+    &:hover{
+        color: #61DBFB
+    }
+}
+.sass{
+    &:hover{
+        color: #cc6699
+    }
+}
+.nodeJs{
+    &:hover{
+        color: #68a063
+    }
+}
+    }}

@@ -1,6 +1,12 @@
 .ImageSection{
     display: flex;
     margin-top: 4rem;
+    margin-bottom: 4rem;
+    // @media screen and (max-width: 375px){
+    //    width: 200px;
+    //    left: 0;
+       
+    // }
     
     .img{
        
@@ -21,5 +27,41 @@
              font-size: 1rem;
          }
     }
+
+    .btn{
+        padding: 1rem 2rem;
+        background-color: #037FFF;
+        outline: none;
+        border: none;
+        font-family: inherit;
+        font-size: inherit;
+        color: #FFF;
+        text-transform: uppercase;
+       
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin-top: 1rem;
+        position: relative;
+        &::after{
+
+            position: absolute;
+            content:'';
+            width: 0;
+            height: .3rem;
+            left: 0;
+            bottom: 0;
+            background-color: #a4acc4;
+            transition: all 0.4s ease-in-out;
+
+            
+
+        }
+        &:hover::after{
+            width: 100%
+        }
+
+
+    }
+
 
 }
