@@ -12,14 +12,9 @@ const HomePage = () => {
     return (
         <div className='HomePage'>
             <header className="hero">
-                <h1 className="hero-text">
-                    Hi, I am
-            <span>
-                        Alexandro Berumen.
-            </span>
-                </h1>
+                <h1 className="hero-text">Hi, I am <span>Alexandro Berumen.</span> </h1>
                 <p className='h-sub-text'>
-                    Front end web developer please hire me
+                    Front end web developer. Please hire me...
                 </p>
                 <div className="icons">
                     <Link className='icon-Container'>

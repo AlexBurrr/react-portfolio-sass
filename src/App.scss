@@ -4,12 +4,27 @@
 @import './Styles/title';
 @import './Styles/about';
 @import './Styles/skillSection';
+@import './Styles/blogs';
 
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #037FFF;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #777;
+  
 }
 
 body{
