@@ -1,0 +1,33 @@
+.ContactItem{
+    width: 100%;
+    margin: 1rem 0;
+
+    .contact{
+        display: flex;
+        align-items: center;
+        height: 10rem;
+         background-color: #191D2B;
+
+         .right-items{
+             margin-left: 2rem;
+         }
+         img{
+             padding: 1rem;
+             border: 1px solid #2e344e;
+             margin-left: 2rem;
+             
+         }
+    }
+
+
+}
+
+.ContactPage{
+    display: flex;
+    .contact-sect{
+        width: 100%;
+    }
+}
+.contact-sect{
+margin-left: 2rem;
+}
