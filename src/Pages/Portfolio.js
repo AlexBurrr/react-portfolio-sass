@@ -1,4 +1,5 @@
 import React from 'react'
+import allProjects from '../Components/allProjects'
 
 const Portfolio = () => {
     return (
