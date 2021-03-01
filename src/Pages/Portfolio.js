@@ -34,7 +34,6 @@ const Portfolio = () => {
                 <Title title={'Portfolio'} span={'Portfolio'} />
             </div>
             <div className="portfolio-data">
-                <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
         </div>
