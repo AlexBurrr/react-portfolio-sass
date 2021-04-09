@@ -9,7 +9,7 @@ const MenuItems = ({ menuItem }) => {
                         <div className="image-data">
                             <img src={item.image} alt="" />
                             <ul className="hover-items">
-                                <li>
+                                push                         <li>
                                     <a href={item.link1}></a>
                                     <a href={item.link2}></a>
                                 </li>
@@ -18,12 +18,14 @@ const MenuItems = ({ menuItem }) => {
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder p</p>
+                        <span>{item.techstack}</span>
+                        <p>{item.description}</p>
                     </div>
                 })
             }
         </div>
     )
 }
+
 
 export default MenuItems
