@@ -5,28 +5,28 @@ export default [
     {
         id: 1,
         image: blog1,
-        title: 'React Documentation',
+        title: 'How to use React-Router',
         link: 'https://reactjs.org/docs/getting-started.html',
 
     },
     {
         id: 2,
         image: blog1,
-        title: 'React Documentation',
+        title: 'How to create a form in react',
         link: 'https://reactjs.org/docs/getting-started.html',
 
     },
     {
         id: 3,
         image: blog1,
-        title: 'React Documentation',
+        title: 'React hooks',
         link: 'https://reactjs.org/docs/getting-started.html',
 
     },
     {
         id: 4,
         image: blog1,
-        title: 'React Documentation',
+        title: 'How to make a responsive website',
         link: 'https://reactjs.org/docs/getting-started.html',
 
     },

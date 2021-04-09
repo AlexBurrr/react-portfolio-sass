@@ -9,7 +9,7 @@ const MenuItems = ({ menuItem }) => {
                         <div className="image-data">
                             <img src={item.image} alt="" />
                             <ul className="hover-items">
-                                push                         <li>
+                                <li>
                                     <a href={item.link1}></a>
                                     <a href={item.link2}></a>
                                 </li>
