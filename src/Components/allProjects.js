@@ -1,5 +1,7 @@
 import portImg1 from '../images/coolPic.jpg'
-import gif from '../images/Animated GIF-downsized_large.gif'
+import Eurogif from '../images/Animated GIF-downsized_large.gif'
+import NewsGif from '../images/news.gif'
+
 
 
 
@@ -7,7 +9,7 @@ import gif from '../images/Animated GIF-downsized_large.gif'
 const projects = [
     {
         id: 1,
-        image: gif,
+        image: Eurogif,
         category: 'React',
         link: 'your mom',
         title: 'Euro 2021 Landing Page',
@@ -17,7 +19,7 @@ const projects = [
     },
     {
         id: 2,
-        image: portImg1,
+        image: NewsGif,
         category: 'py',
         link: 'your dad',
         title: 'News Agreggator',
