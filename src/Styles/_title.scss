@@ -5,6 +5,9 @@
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;
+    @media screen and (max-width: 800px){
+        top: -.7rem;
+        } 
 
     &::before{
         content:'';
