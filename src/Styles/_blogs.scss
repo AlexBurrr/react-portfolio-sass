@@ -2,6 +2,21 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+
+@media screen and(max-width:1200px){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+
+}
+@media screen and(max-width:500px){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    width: 100vw;
+
+}
+
     .blog{
         background-color: #161925;
         width: 90%;

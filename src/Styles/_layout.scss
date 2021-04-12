@@ -1,7 +1,7 @@
 .App{
     .sidebar{
         width: 16%;
-        height: 100vh;
+        height: 250vh;
         z-index: 11;
         background-color: #191D2B;
         position: fixed;
@@ -41,11 +41,11 @@
         display: grid;
         position: relative;
 
-        @media screen and (max-width:900px){
+        @media screen and (max-width:1000px){
             width: 100%;
             margin: 0 ; 
             background-color: #10121B;
-            min-height: 100vh;
+            min-height: 130vh;
             display: grid;
             position: relative;
             }
@@ -116,7 +116,7 @@
     position: absolute;
     z-index: 10 ;
     right: 10%;
-    top: 10%;
+    top: 3%;
     width: 5rem;
     height: 5rem;
     display: none;
@@ -124,6 +124,23 @@
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
+
+    @media screen and(max-width:600px){
+        position: absolute;
+        right: -5%;
+        top: 3%;
+        width: 5rem;
+        height: 5rem;
+    
+    }
+    @media screen and(max-width:450px){
+        position: absolute;
+        right: -30%;
+        top: 3%;
+        width: 5rem;
+        height: 5rem;
+    
+    }
 
 
     .lines-1,.lines-2,.lines-3{
