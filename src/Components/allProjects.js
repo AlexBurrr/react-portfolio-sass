@@ -1,6 +1,5 @@
 import portImg1 from '../images/coolPic.jpg'
 import Eurogif from '../images/Animated GIF-downsized_large.gif'
-import NewsGif from '../images/news.gif'
 import MovieGif from '../images/movie.gif'
 import LeCloud from '../images/LeCloud.gif'
 import Cryptos from '../images/crypto.gif'
