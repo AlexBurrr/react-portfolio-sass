@@ -1,7 +1,9 @@
 import portImg1 from '../images/coolPic.jpg'
 import Eurogif from '../images/Animated GIF-downsized_large.gif'
 import NewsGif from '../images/news.gif'
-
+import MovieGif from '../images/movie.gif'
+import LeCloud from '../images/LeCloud.gif'
+import Cryptos from '../images/crypto.gif'
 
 
 
@@ -9,12 +11,12 @@ import NewsGif from '../images/news.gif'
 const projects = [
     {
         id: 1,
-        image: NewsGif,
+        image: MovieGif,
         category: 'React',
         weblink: 'https://movie-and-tv.netlify.app',
         title: 'Movie and TV Info App',
         techstack: 'react, styled-components, axios, TMDB Api, react-router, react hooks',
-        description: 'App that displays popular movies and tv shows along with the cast and general information about the selected media. Can also search for a particular movie or show. ',
+        description: 'My flagship project. The app displays popular movies and tv shows along with the cast and general information about the selected media. Can also search for a particular movie or show. ',
         githublink: 'https://github.com/AlexandroBerumen/movie-api-react'
     },
     {
@@ -29,17 +31,17 @@ const projects = [
     },
     {
         id: 3,
-        image: Eurogif,
+        image: LeCloud,
         category: 'vanilla',
         weblink: 'https://leclouds.netlify.app',
         title: 'LeCloud',
-        techstack: 'bootstrap, vanilla js',
-        description: 'Landing page for a fictional cloud hosting wesbite ',
+        techstack: 'responsive design, vanilla css',
+        description: 'Landing page for a fictional cloud hosting wesbite. This project was focused on writing clean css and making the website look good on different sized screens.',
         githublink: 'https://github.com/AlexandroBerumen/cloud-landing-page'
     },
     {
         id: 4,
-        image: Eurogif,
+        image: Cryptos,
         category: 'React',
         weblink: 'https://cryptocrypto.netlify.app',
         title: 'Crypto Tracker',
