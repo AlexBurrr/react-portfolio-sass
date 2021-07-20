@@ -1,4 +1,7 @@
 import React from 'react'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const MenuItems = ({ menuItem }) => {
     return (
@@ -18,8 +21,10 @@ const MenuItems = ({ menuItem }) => {
                         <h5>
                             {item.title}
                         </h5>
+                        <FontAwesomeIcon icon={faGithub} className='icon' onClick={(e) => (window.location = `${item.githublink}`)} style />
                         <span>{item.techstack}</span>
                         <p>{item.description}</p>
+
                     </div>
                 })
             }

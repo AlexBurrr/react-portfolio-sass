@@ -4,6 +4,9 @@ import Title from '../Components/Title'
 import Categories from '../Components/Categories'
 import MenuItems from '../Components/MenuItems';
 import { useState } from 'react';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 

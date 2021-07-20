@@ -17,15 +17,15 @@ const HomePage = () => {
                     Front end web developer.
                 </p>
                 <div className="icons">
-                    <Link className='icon-Container'>
-                        <FontAwesomeIcon icon={faGithub} className='icon gh' />
+                    <Link className='icon-Container' >
+                        <FontAwesomeIcon icon={faGithub} className='icon gh' onClick={(e) => (window.location = 'https://github.com/AlexandroBerumen')} />
                     </Link>
-                    <Link className='icon-Container'>
+                    {/* <Link className='icon-Container'>
                         <FontAwesomeIcon icon={faTwitter} className='icon tw' />
                     </Link>
                     <Link className='icon-Container'>
                         <FontAwesomeIcon icon={faFacebook} className="icon fa" />
-                    </Link>
+                    </Link> */}
                 </div>
             </header>
         </div>

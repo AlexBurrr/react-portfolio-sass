@@ -10,6 +10,8 @@
     display: flex;
     margin-top: 4rem;
     margin-bottom: 4rem;
+
+    
     @media screen and (max-width: 1400px){
         flex-direction: column;
        
@@ -36,7 +38,7 @@
     }
 
     .about-info{
-        margin-left: 0rem;
+        margin-left: 2rem;
          h4{
              font-size: 2rem;
              
