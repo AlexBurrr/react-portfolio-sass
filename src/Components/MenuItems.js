@@ -10,7 +10,8 @@ const MenuItems = ({ menuItem }) => {
                 menuItem.map((item) => {
                     return <div className="portfolio" key={item.id}>
                         <div className="image-data">
-                            <img src={item.image} alt="" />
+
+                            <img src={item.image} alt="" onClick={(e) => (window.location = `${item.weblink}`)} />
                             <ul className="hover-items">
                                 <li>
                                     <a href={item.link1}></a>
