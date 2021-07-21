@@ -4,7 +4,12 @@ import Resume from '../assets/Alexandro_Berumen_Resume.pdf'
 
 const ImageSection = () => {
 
-
+    const Resume = () => {
+        fileSaver.saveAs(
+            process.env.REACT_APP_CLIENT_URL + "../assets/Alexandro_Berumen_Resume.pdf",
+            "MyCV.pdf"
+        );
+    }
 
     return (
         <div className='ImageSection'>
