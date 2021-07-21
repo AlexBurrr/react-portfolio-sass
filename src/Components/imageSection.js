@@ -1,5 +1,6 @@
 import React from 'react'
 import about from '../images/gradPic.jpg'
+import FileSaver from 'file-saver';
 
 
 const ImageSection = () => {
