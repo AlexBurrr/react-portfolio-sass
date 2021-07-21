@@ -8,7 +8,7 @@ const ImageSection = () => {
     const ResumeDownload = () => {
         FileSaver.saveAs(
             process.env.REACT_APP_CLIENT_URL + "../assets/Alexandro_Berumen_Resume.pdf",
-            "MyCV.pdf"
+            "Alexandro_Berumen_Resume.pdf"
         );
     }
 
