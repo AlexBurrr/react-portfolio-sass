@@ -6,7 +6,7 @@ import FileSaver from 'file-saver';
 const ImageSection = () => {
 
     const ResumeDownload = () => {
-        fileSaver.saveAs(
+        FileSaver.saveAs(
             process.env.REACT_APP_CLIENT_URL + "../assets/Alexandro_Berumen_Resume.pdf",
             "MyCV.pdf"
         );
