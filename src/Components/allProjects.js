@@ -15,7 +15,7 @@ const projects = [
         weblink: 'https://movie-and-tv.netlify.app',
         title: 'Movie and TV Info App',
         techstack: 'react, styled-components, axios, TMDB Api, react-router, react hooks',
-        description: 'My flagship project. The app displays popular movies and tv shows along with the cast and general information about the selected media. Can also search for a particular movie or show. ',
+        description: ' Using the TMDb api, this app displays popular movies and tv shows along with the cast and general information about the selected media. Can also search for a particular movie or show. ',
         githublink: 'https://github.com/AlexandroBerumen/movie-api-react'
     },
     {
