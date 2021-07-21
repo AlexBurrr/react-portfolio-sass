@@ -3,11 +3,12 @@ import about from '../images/gradPic.jpg'
 import FileSaver from 'file-saver';
 
 
+
 const ImageSection = () => {
 
     const ResumeDownload = () => {
         FileSaver.saveAs(
-            process.env.REACT_APP_CLIENT_URL + "./assets/Alexandro_Berumen_Resume.pdf",
+            process.env.REACT_APP_CLIENT_URL + "../../public/assets/Alexandro_Berumen_Resume.pdf",
             "Alexandro_Berumen_Resume.pdf"
         );
     }
